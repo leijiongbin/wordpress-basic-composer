@@ -1,0 +1,256 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Duplicate Post\n"
+"POT-Creation-Date: 2016-10-10 14:08+0800\n"
+"PO-Revision-Date: 2016-10-10 14:22+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.1\n"
+
+#: duplicate-post-admin.php:133
+msgid "<strong>Duplicate Post has been greatly redesigned in its options page.</strong> Please <a href=\"%s\">review the settings</a> to make sure it works as you expect."
+msgstr "<strong>复制工具已经更新。</strong> 请<a href=\"%s\">重置选项</a>确保该工具正常运行。"
+
+#: duplicate-post-admin.php:175
+msgid "Clone this item"
+msgstr "克隆"
+
+#: duplicate-post-admin.php:176
+msgid "Clone"
+msgstr "克隆"
+
+#: duplicate-post-admin.php:178 duplicate-post-admin.php:199
+#: duplicate-post-common.php:77 duplicate-post-common.php:81
+#: duplicate-post-common.php:115
+msgid "Copy to a new draft"
+msgstr "复制到新草稿"
+
+#: duplicate-post-admin.php:179
+msgid "New Draft"
+msgstr "新草稿"
+
+#: duplicate-post-admin.php:227
+msgid "No post to duplicate has been supplied!"
+msgstr "没有提供要复制的文章"
+
+#: duplicate-post-admin.php:249
+msgid "Copy creation failed, could not find original:"
+msgstr "复制失败，无法找到原内容："
+
+#: duplicate-post-admin.php:436
+msgid "Copy features for this post type are not enabled in options page"
+msgstr "请到“设置-复制”设置开启此文章类型"
+
+#: duplicate-post-admin.php:453
+msgid "Untitled"
+msgstr "没有标题"
+
+#: duplicate-post-options.php:39 duplicate-post-options.php:72
+msgid "Duplicate Post Options"
+msgstr "复制选项"
+
+#. Plugin Name of the plugin/theme
+#: duplicate-post-options.php:39
+msgid "Duplicate Post"
+msgstr "复制"
+
+#: duplicate-post-options.php:77
+msgid "Visit plugin site"
+msgstr "访问网站"
+
+#: duplicate-post-options.php:79
+msgid "Translate"
+msgstr "翻译"
+
+#: duplicate-post-options.php:80
+msgid "FAQ"
+msgstr "FAQ"
+
+#: duplicate-post-options.php:81
+msgid "Donate"
+msgstr "支持"
+
+#: duplicate-post-options.php:183
+msgid "What to copy"
+msgstr "要复制的内容"
+
+#: duplicate-post-options.php:185
+msgid "Permissions"
+msgstr "权限"
+
+#: duplicate-post-options.php:187
+msgid "Display"
+msgstr "显示"
+
+#: duplicate-post-options.php:195
+msgid "Post/page elements to copy"
+msgstr "文章/页面元素要复制"
+
+#: duplicate-post-options.php:199
+msgid "Title"
+msgstr "标题"
+
+#: duplicate-post-options.php:202
+msgid "Date"
+msgstr "日期"
+
+#: duplicate-post-options.php:205
+msgid "Status"
+msgstr "状态"
+
+#: duplicate-post-options.php:208
+msgid "Slug"
+msgstr "别名"
+
+#: duplicate-post-options.php:211
+msgid "Excerpt"
+msgstr "摘要"
+
+#: duplicate-post-options.php:214
+msgid "Content"
+msgstr "内容"
+
+#: duplicate-post-options.php:217
+msgid "Password"
+msgstr "密码"
+
+#: duplicate-post-options.php:220
+msgid "Attachments"
+msgstr "附件"
+
+#: duplicate-post-options.php:223
+msgid "Children"
+msgstr "子页面"
+
+#: duplicate-post-options.php:226
+msgid "Comments"
+msgstr "评论"
+
+#: duplicate-post-options.php:226
+msgid "except pingbacks and trackbacks"
+msgstr "除了pingbacks和trackbacks"
+
+#: duplicate-post-options.php:231
+msgid "Title prefix"
+msgstr "标题前缀"
+
+#: duplicate-post-options.php:236
+msgid "Prefix to be added before the title, e.g. \"Copy of\" (blank for no prefix)"
+msgstr "在原始标题前添加前缀，例如：“复制为”（留空不加前缀）"
+
+#: duplicate-post-options.php:241
+msgid "Title suffix"
+msgstr "标题后缀"
+
+#: duplicate-post-options.php:246
+msgid "Suffix to be added after the title, e.g. \"(dup)\" (blank for no suffix)"
+msgstr "在原始标题前添加后缀，例如：“的副本”（留空不加前缀）"
+
+#: duplicate-post-options.php:251
+msgid "Increase menu order by"
+msgstr "选单顺序"
+
+#: duplicate-post-options.php:256
+msgid "Add this number to the original menu order (blank or zero to retain the value)"
+msgstr "将此编号添加到原始的菜单顺序 （空白或零将保留值）"
+
+#: duplicate-post-options.php:261
+msgid "Do not copy these fields"
+msgstr "不要复制这些字段"
+
+#: duplicate-post-options.php:266
+msgid "Comma-separated list of meta fields that must not be copied"
+msgstr "填入不想复制的字段，以逗号分割"
+
+#: duplicate-post-options.php:267
+msgid "Add <code>_thumbnail_id</code> to prevent featured images to be copied"
+msgstr "添加 <code>_thumbnail_id</code> 防止特色的图像被复制"
+
+#: duplicate-post-options.php:272
+msgid "Do not copy these taxonomies"
+msgstr "不要复制这些分类"
+
+#: duplicate-post-options.php:274
+msgid "Show/hide private taxonomies"
+msgstr "显示/隐藏私密分类"
+
+#: duplicate-post-options.php:287
+msgid "Select the taxonomies you don't want to be copied"
+msgstr "选择你不想复制的分类"
+
+#: duplicate-post-options.php:297
+msgid "Roles allowed to copy"
+msgstr "允许使用复制的权限"
+
+#: duplicate-post-options.php:307
+msgid "Warning: users will be able to copy all posts, even those of other users"
+msgstr "警告：用户将能够复制所有文章，甚至其他用户的文章"
+
+#: duplicate-post-options.php:308
+msgid "Passwords and contents of password-protected posts may become visible to undesired users and visitors"
+msgstr "密码保护的内容访客无法访问"
+
+#: duplicate-post-options.php:314
+msgid "Enable for these post types"
+msgstr "允许这些文章类型"
+
+#: duplicate-post-options.php:323
+msgid "Select the post types you want the plugin to be enabled"
+msgstr "选择需要开启的文章类型"
+
+#: duplicate-post-options.php:324 duplicate-post-options.php:345
+msgid "Whether the links are displayed for custom post types registered by themes or plugins depends on their use of standard WordPress UI elements"
+msgstr "是否在自定义的文章类型也显示"
+
+#: duplicate-post-options.php:333
+msgid "Show links in"
+msgstr "显示链接"
+
+#: duplicate-post-options.php:337
+msgid "Post list"
+msgstr "文章列表"
+
+#: duplicate-post-options.php:339
+msgid "Edit screen"
+msgstr "编辑界面"
+
+#: duplicate-post-options.php:341
+msgid "Admin bar"
+msgstr "工具栏"
+
+#: duplicate-post-options.php:346
+#, php-format
+msgid "You can also use the template tag duplicate_post_clone_post_link( $link, $before, $after, $id ). More info <a href=\"%s\">here</a>"
+msgstr "您还可以使用模板标签 duplicate_post_clone_post_link （$link、 $before、 $after、 $id）。更多的信息<a href=\"%s\">在这里</a>"
+
+#: duplicate-post-options.php:354
+msgid "Save Changes"
+msgstr "保存变更"
+
+#: duplicate-post.php:49
+msgid "Settings"
+msgstr "设置"
+
+#. Plugin URI of the plugin/theme
+msgid "http://lopo.it/duplicate-post-plugin/"
+msgstr "、"
+
+#. Description of the plugin/theme
+msgid "Clone posts and pages."
+msgstr "克隆文章和页面"
+
+#. Author of the plugin/theme
+msgid "Enrico Battocchi"
+msgstr "Enrico"
+
+#. Author URI of the plugin/theme
+msgid "http://lopo.it"
+msgstr "、"
+
+#~ msgid "Copy post/page date also"
+#~ msgstr "同时复制日期"
