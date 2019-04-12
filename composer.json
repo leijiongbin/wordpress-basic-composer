@@ -4,7 +4,8 @@
     "license": "MIT",
     "keywords": ["wordpress"],
     "version": "1.0.0",
-    "type": "library",
+    "type": "project",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "leijiongbin",
